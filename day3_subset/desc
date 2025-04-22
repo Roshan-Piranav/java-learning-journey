@@ -1,0 +1,20 @@
+Subset Generation using Recursion in Java
+Today, I learned how to generate all subsets (also known as the power set) of a given string using recursion.
+
+ Logic:
+
+I used two strings:
+
+p → the processed part
+
+up → the unprocessed part
+
+At each step, I either:
+
+include the first character of up in p, or
+
+skip it, and recurse further.
+
+ Output:
+This generates all possible combinations of the characters in the string "abc".
+Result is stored in an ArrayList<String>
